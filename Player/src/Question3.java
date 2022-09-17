@@ -22,7 +22,7 @@ public class Question3 {
         //Take the memory address in controller1 (which is the same memory address as controller2),
         // find the Player object at that location in memory
         // and perform the changeOutfit() method on it
-        //Notably, a String object within the Player object will be created and assigned to its internal variable, 
+        //Notably, a String object within the Player object will be created and assigned to the Player object's internal variable, 
         // but it doesn't mean that a new Player object will be created
         controller1.changeOutfit();
 
